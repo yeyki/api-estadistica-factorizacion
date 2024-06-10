@@ -14,7 +14,7 @@ RUN npm install
 COPY . .
 
 # Exponer el puerto que utiliza tu aplicación
-EXPOSE 3100
+EXPOSE 8080
 
 # Comando para ejecutar la aplicación
 CMD npm run prd
