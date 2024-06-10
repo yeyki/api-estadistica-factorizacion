@@ -3,7 +3,7 @@ import { loggerRequest } from "./middleware";
 
 // Settings
 const app = express();
-const PORT = 8080;
+const PORT = 3100;
 
 // Middlewares
 app.use(express.json());
